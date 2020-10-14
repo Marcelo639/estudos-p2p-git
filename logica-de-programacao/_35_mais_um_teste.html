@@ -1,0 +1,42 @@
+<meta charset="utf-8">
+
+<!--alternativa A
+<button>Clique-me</button>
+<script>
+	
+	function tchau() {		
+		alert("Tchau");
+	}
+
+	var button = document.querySelector("button");
+	button.onclick = tchau();
+
+</script>
+-->
+
+<!--alternativa B 
+<button>Clique-me</button>
+<script>
+	
+	function tchau() {		
+		alert("Tchau");
+	}
+
+	var button = document.querySelector("button");
+	button.onclick = tchau;
+
+</script>
+-->
+
+<!--alternativa C -- ERROR-->
+<button>Clique-me</button>
+<script>
+	
+	function tchau() {		
+		alert("Tchau");
+	}
+
+	var button = document.querySelector("button");
+	button = tchau();
+
+</script>

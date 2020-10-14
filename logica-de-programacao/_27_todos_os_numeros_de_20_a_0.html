@@ -1,0 +1,22 @@
+<meta charset="utf-8">
+<script>
+	
+	function pulaLinha() {
+		document.write("<br><br>");
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+
+	var decrescente = 20;
+
+	while(decrescente >= 0){
+		mostra("Número " + decrescente);
+		decrescente = decrescente - 1;
+	}
+
+	mostra("FIM.");
+	
+</script>

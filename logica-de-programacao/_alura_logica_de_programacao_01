@@ -1,0 +1,20 @@
+ALURA(Lógica de programação I)
+
+codigo fonte das aulas
+
+Aula 14
+
+<meta charset="utf-8">
+<script>
+	/*
+	document.write("Flávio nasceu em " + (2016 - 39));
+	document.write("<br>");
+	document.write("Joaquim nasceu em " + (2016 - 20));
+	document.write("<br>");
+	document.write("Barney nasceu em " + (2016 - 40));
+	*/
+
+	document.write("Flávio nasceu em " + (2016 - 39) + "<br>");
+	document.write("Joaquim nasceu em " + (2016 - 20) + "<br>");
+	document.write("Barney nasceu em " + (2016 - 40) + "<br>");
+</script>

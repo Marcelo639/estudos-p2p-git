@@ -1,0 +1,51 @@
+<meta charset="utf-8">
+<script>
+
+	function pulaLinha() {
+		document.write("<br><br>");
+	}
+
+    function mostra(frase) {
+    	document.write(frase);
+    	pulaLinha();
+    }
+
+    // var numeroPensado = 5;
+    // var chute = parseInt(prompt("Digite seu chute:"));
+
+    // if (chute == 5) {
+    // 	mostra("Você acertou!");
+    // }
+
+    // // "!=" - DIFERENTE.
+    // if (chute != numeroPensado) {
+    // 	mostra("Você errou. O número pensado é " + numeroPensado);
+    // }
+
+
+
+    // var numeroPensado = 5;
+    // var chute = parseInt(prompt("Digite seu chute:"));
+
+    // // "IF...ELSE..." - SE...SENÃO...
+    // if (chute == 5) {
+    // 	mostra("Você acertou!");
+    // } else{
+    // 	mostra("Você errou. O número pensado é " + numeroPensado);
+    // }
+
+
+    // "Math.random" - Número aleatório.
+    var numeroPensado = Math.round(Math.random() * 10);
+    console.log(numeroPensado);
+
+    var chute = parseInt(prompt("Digite seu chute:"));
+
+    // "IF{...}ELSE{...}" - SE{...}SENÃO{...}
+    if (chute == numeroPensado) {
+    	mostra("Você acertou!");
+    } else{
+    	mostra("Você errou. O número pensado é " + numeroPensado);
+    }
+
+</script>

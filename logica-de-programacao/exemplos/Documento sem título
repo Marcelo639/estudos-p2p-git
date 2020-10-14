@@ -1,0 +1,36 @@
+- Math.round(): Arredondar números.
+
+- NaN: Not a Number.
+
+- prompt();
+
+- parseInt(): Transformar um texto em um número.
+
+
+TRABALHANDO COM CONDIÇÕES(estrutura condicional).
+
+> Maior que...
+
+< Menor que...
+
+== Igual que...
+
+- Math.random() - Números aleatórios.
+
+- break - Interromper uma instrução.
+
+- querySelector() - Inserção* do que aquilo que está no mundo HTML na variável input.
+
+- Array[conteúdo(indice), conteúdo(indice), conteúdo(indice)...]
+
+- Array.length - Conteúdo de um elemento de um array. Ex: segredos.length
+
+- push - Empurrar conteúdo de um dado. Ex: variavel.push();
+
+- OBS: ARRAY -> COMANDO "for (var indice = indice; i < variavel.length; indice++) { comandos... }"
+
+PROJETO FINAL
+
+- tabuada: OK
+
+

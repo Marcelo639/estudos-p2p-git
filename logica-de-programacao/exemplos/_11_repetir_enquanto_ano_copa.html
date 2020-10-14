@@ -1,0 +1,32 @@
+<meta charset="utf-8">
+<script>
+	
+	function pulaLinha() {
+		document.write("<br><br>");
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+
+	// var anoCopa = 1930;
+
+	// while(anoCopa <= 1978){
+	// 	//alert("Teve copas em " + anoCopa);
+	// 	mostra("Teve copas em " + anoCopa);
+	// 	anoCopa = anoCopa + 4;
+	// }
+
+	var limite = parseInt(prompt("Entre com a data limite."));
+	// var limite = prompt("Entre com a data limite."); // "parseInt" - Converter caractere por Números Inteiros.
+	var anoCopa = 1930;
+
+	while(anoCopa <= limite){
+		mostra("Teve copas em " + anoCopa);
+		anoCopa = anoCopa + 4;
+	}
+
+	mostra("FIM");
+
+</script>
